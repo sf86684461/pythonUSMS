@@ -1,0 +1,30 @@
+from . import  Shangpinfenlei_v,Shangpinjinhuo_v,Yuangong_v,Aboutus_v,Systemintro_v,Chaoshishangpin_v,Cart_v,config_v,Storeup_v,Friendlink_v,schema_v,Gongyingshang_v,Yonghu_v,News_v,Newstype_v,users_v,index_v,Syslog_v,common,Orders_v,Discusschaoshishangpin_v
+ * Serving Flask app "api" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 213-406-997
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[37mGET /admin HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[33mGET /verifys/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[33mGET /verifys/yz.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[33mGET /verifys/verify.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[33mGET /lunar/lunar.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[37mGET /js/app.0f6fdd94.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[37mGET /css/app.0fa984f1.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[37mGET /js/chunk-vendors.41b6ea4b.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[37mGET /css/chunk-vendors.1f0a25b2.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[33mGET /verifys/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[33mGET /verifys/yz.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[33mGET /verifys/verify.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[37mGET /css/app.0fa984f1.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[37mGET /css/chunk-vendors.1f0a25b2.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[37mGET /js/chunk-vendors.41b6ea4b.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[37mGET /js/app.0f6fdd94.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[32mGET /pythoncb7g1i62/upload/image1.jpg HTTP/1.1[0m" 302 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[37mGET /fonts/element-icons.535877f5.woff HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Sep/2025 02:40:13] "[37mGET /pythoncb7g1i62/users/session HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/Sep/2025 02:40:14] "[37mGET /image1.jpg HTTP/1.1[0m" 200 -

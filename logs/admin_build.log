@@ -1,0 +1,57 @@
+[1;33m![0m 检测到 Node >= 17，已设置 NODE_OPTIONS=--openssl-legacy-provider 以兼容 webpack4
+[1;34m==>[0m 检测到 node_modules，跳过安装（如需重新安装请删除 node_modules）
+[1;34m==>[0m 开始构建（输出：dist-build)...
+
+ WARNING  Compiled with 3 warnings02:40:09
+
+ warning  
+
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  css/app.0fa984f1.css (631 KiB)
+  js/app.0f6fdd94.js (600 KiB)
+  js/chunk-vendors.41b6ea4b.js (2.49 MiB)
+  lunar/lunar.js (443 KiB)
+
+ warning  
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  app (3.73 MiB)
+      css/chunk-vendors.1f0a25b2.css
+      js/chunk-vendors.41b6ea4b.js
+      css/app.0fa984f1.css
+      js/app.0f6fdd94.js
+
+
+ warning  
+
+webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+
+  File                                      Size             Gzipped
+
+  dist-build/verifys/jquery-3.4.1.min.js    86.08 KiB        30.01 KiB
+  dist-build/js/chunk-vendors.41b6ea4b.j    2549.94 KiB      760.25 KiB
+  s
+  dist-build/js/app.0f6fdd94.js             600.22 KiB       111.96 KiB
+  dist-build/lunar/lunar.js                 443.48 KiB       108.77 KiB
+  dist-build/verifys/verify.js              28.35 KiB        6.62 KiB
+  dist-build/verifys/yz.js                  24.55 KiB        7.80 KiB
+  dist-build/css/app.0fa984f1.css           631.17 KiB       52.68 KiB
+  dist-build/css/chunk-vendors.1f0a25b2.    36.57 KiB        4.74 KiB
+  css
+
+  Images and other types of assets omitted.
+
+ DONE  Build complete. The dist-build directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+      
+[1;32m✔[0m 构建完成
+[1;34m==>[0m 替换后端静态目录：/Users/shaofeng/Desktop/pythonUSMS/api/templates/front/admin/dist
+[1;32m✔[0m 部署完成：/Users/shaofeng/Desktop/pythonUSMS/api/templates/front/admin/dist
+
+[1;32m✔[0m 管理端已就绪： http://localhost:8080/admin#/
+如浏览器有缓存，请使用强制刷新(⌘+Shift+R)
