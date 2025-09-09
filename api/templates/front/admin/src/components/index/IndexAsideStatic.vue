@@ -15,7 +15,7 @@
 		      {{this.$storage.get('adminName')}}</div>
 		  </div>
 		  <el-menu :default-active="activeMenu" :unique-opened="true" :style="verticalStyle2[isCollapse?'close':'open'].menu.box.default"
-		    class="el-menu-vertical-2" :collapse-transition="false" :collapse="isCollapse" background-color="#ffffff" text-color="#262626" active-text-color="#409EFF">
+		    class="el-menu-vertical-demo" :collapse-transition="false" :collapse="isCollapse">
 		    <el-menu-item class="home" :popper-append-to-body="false" popper-class="home" @click.native="menuHandler('')" :style="verticalStyle2[isCollapse?'close':'open'].home.one.box.default" index="/">
 		      <div class="el-tooltip">
 		        <i :style="verticalStyle2[isCollapse?'close':'open'].home.one.icon.default"

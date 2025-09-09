@@ -1,0 +1,92 @@
+/* 左侧菜单栏自定义样式 - 参考图片效果 */
+
+/* 菜单项图标大小调整 */
+.el-menu-vertical-demo .el-menu-item i,
+.el-menu-vertical-demo .el-submenu__title i {
+  font-size: 18px !important;
+  margin-right: 12px !important;
+  width: 18px !important;
+  text-align: center !important;
+}
+
+/* 菜单项文字大小调整 */
+.el-menu-vertical-demo .el-menu-item,
+.el-menu-vertical-demo .el-submenu__title {
+  font-size: 14px !important;
+  height: 56px !important;
+  line-height: 56px !important;
+  padding-left: 20px !important;
+}
+
+/* 确保所有菜单项文字对齐 */
+.el-menu-vertical-demo .el-menu-item span,
+.el-menu-vertical-demo .el-submenu__title span {
+  margin-left: 0 !important;
+}
+
+/* 悬停状态样式 - 浅蓝色背景，深蓝色文字和图标 */
+.el-menu-vertical-demo .el-menu-item:hover {
+  background-color: #ecf5ff !important;
+  color: #409eff !important;
+}
+
+.el-menu-vertical-demo .el-submenu__title:hover {
+  background-color: #ecf5ff !important;
+  color: #409eff !important;
+}
+
+/* 选中状态样式 - 浅蓝色背景，蓝色文字和图标，左边蓝色条 */
+.el-menu-vertical-demo .el-menu-item.is-active {
+  background-color: #ecf5ff !important;
+  color: #409eff !important;
+  border-left: 3px solid #409eff !important;
+  border-right: none !important;
+}
+
+.el-menu-vertical-demo .el-submenu.is-active > .el-submenu__title {
+  background-color: #ecf5ff !important;
+  color: #409eff !important;
+  border-left: 3px solid #409eff !important;
+}
+
+/* 二级菜单项样式 */
+.el-menu-vertical-demo .el-submenu .el-menu-item {
+  font-size: 13px !important;
+  height: 50px !important;
+  line-height: 50px !important;
+  padding-left: 50px !important;
+}
+
+.el-menu-vertical-demo .el-submenu .el-menu-item:hover {
+  background-color: #ecf5ff !important;
+  color: #409eff !important;
+}
+
+.el-menu-vertical-demo .el-submenu .el-menu-item.is-active {
+  background-color: #ecf5ff !important;
+  color: #409eff !important;
+  border-left: 3px solid #409eff !important;
+  border-right: none !important;
+}
+
+/* 菜单项间距调整 */
+.el-menu-vertical-demo .el-menu-item,
+.el-menu-vertical-demo .el-submenu {
+  margin-bottom: 2px !important;
+}
+
+/* 图标颜色继承文字颜色 */
+.el-menu-vertical-demo .el-menu-item i,
+.el-menu-vertical-demo .el-submenu__title i {
+  color: inherit !important;
+}
+
+/* 修复头像旁边用户名显示问题 */
+.el-dropdown-link span {
+  color: #333 !important;
+}
+
+/* 确保头部用户名正常显示 */
+.nickname {
+  color: #333 !important;
+}

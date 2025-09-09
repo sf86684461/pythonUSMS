@@ -1,0 +1,1 @@
+{"title":"左侧菜单栏样式修改","features":["菜单背景色修改","默认文字图标颜色调整","选中状态样式","悬停状态样式"],"tech":{"Web":{"arch":"html","component":"tdesign"},"Backend":"Python Flask/Django","Frontend":"HTML + CSS + JavaScript"},"design":"简洁的白色背景菜单栏，黑色文字和图标，蓝色(#409EFF)作为交互状态的强调色","plan":{"修改左侧菜单栏背景色为白色":"done","设置一级菜单和二级菜单的默认图标和文字颜色为黑色":"done","配置选中状态下的图标和文字颜色为#409EFF":"done","设置悬停状态下的图标和文字颜色为#409EFF":"done"}}
