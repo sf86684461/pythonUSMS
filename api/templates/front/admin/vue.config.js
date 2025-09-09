@@ -8,7 +8,7 @@ function publicPath(){
     if (process.env.NODE_ENV == 'production') {
         return "././";
     } else {
-        return "/";
+        return "/admin/";
     }
 }
 // vue.config.js

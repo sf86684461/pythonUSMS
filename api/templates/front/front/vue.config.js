@@ -1,5 +1,4 @@
 // var webpack = require('webpack');
-//vue2
 const path = require('path')
 function resolve(dir) {
     return path.join(__dirname, dir)
@@ -29,7 +28,7 @@ module.exports = {
 lintOnSave: false,
     devServer: {
         host: "0.0.0.0", //指定使用一个 host。默认是 localhost，这里默认值即可
-        port: 8082, //指定端口
+        port: 8085, //指定端口
         hot: true, // 开启热更新
         https: false, // 是否开启https模式
         proxy: { // 请求代理服务器
@@ -41,27 +40,6 @@ lintOnSave: false,
                     '^/pythoncb7g1i62': ''
                 }
             }
-        },
-        watchOptions: {
-            poll: 300,
-            ignored: /node_modules/
         }
     },
-chainWebpack(config) {
-    config.module
-      .rule('svg')
-      .exclude.add(resolve('src/icons'))
-      .end()
-    config.module
-      .rule('icons')
-      .test(/\.svg$/)
-      .include.add(resolve('src/icons'))
-      .end()
-      .use('svg-sprite-loader')
-      .loader('svg-sprite-loader')
-      .options({
-        symbolId: 'icon-[name]'
-      })
-      .end()
-}
 }

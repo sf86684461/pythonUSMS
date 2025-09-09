@@ -44,7 +44,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .index-aside {
-  margin-top: 80px;
+  margin-top: 0;
   overflow: hidden;
   .index-aside-inner {
     width: 217px;

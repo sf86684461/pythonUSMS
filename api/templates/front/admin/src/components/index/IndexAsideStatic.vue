@@ -533,7 +533,7 @@ export default {
 				border: none;
 				border-radius: 0px;
 				padding: 0px 0;
-				margin: 0 0 0 3px;
+				margin: 0px 0 0;
 				font-size: inherit;
 			}
 	
@@ -655,6 +655,18 @@ export default {
 			}
 	
 	.scrollbar-wrapper-open .el-menu-vertical-2 .el-submenu.home .el-menu {
+				border-radius: 0px;
+				padding: 0px;
+				box-shadow: inset 0 20px 10px -20px #000;
+				margin: 0px 0 0;
+				background: none;
+				font-size: inherit;
+				border-color: #ddd;
+				border-width: 0px 0;
+				border-style: solid;
+			}
+	
+	.scrollbar-wrapper-open .el-menu-vertical-2 .el-submenu.other .el-menu {
 				border-radius: 0px;
 				padding: 0px;
 				box-shadow: inset 0 20px 10px -20px #000;
@@ -999,12 +1011,6856 @@ export default {
 				right: 20px;
 			}
 	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.other .el-menu {
+				border: none;
+				border-radius: 0px;
+				padding: 0px 0;
+				margin: 0 0 0 3px;
+				font-size: inherit;
+			}
+	
 	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu {
 				border: none;
 				border-radius: 0px;
 				padding: 0px 0;
 				margin: 0 0 0 3px;
 				font-size: inherit;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item {
+				display: none;
+				vertical-align: middle;
+				font-size: 12px;
+				position: absolute;
+				right: 20px;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active {
+				display: block;
+				vertical-align: middle;
+				font-size: 12px;
+				position: absolute;
+				right: 20px;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:hover {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:focus {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:link {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:active {
+				background-color: transparent;
+			}
+	
+	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu .el-menu-item.is-active:visited {
+				background-color: transparent;
 			}
 	
 	.scrollbar-wrapper-close .el-menu-vertical-2 .el-submenu.user .el-menu--vertical.user .el-menu-item {
@@ -1087,7 +7943,6 @@ export default {
       background: #409EFF;
     }
   }
-}
 
 /* 折叠态图标优化 */
 .scrollbar-wrapper-close {
@@ -1097,6 +7952,69 @@ export default {
       margin-right: 0;
       font-size: 20px;
     }
+    
+    // 统一所有一级菜单项的icon样式
+    & ::v-deep .el-menu-item,
+    & ::v-deep .el-submenu__title {
+      height: 48px;
+      line-height: 48px;
+      color: #262626;
+      padding: 0 8px;
+      transition: background .15s ease, color .15s ease;
+      font-size: 14px;
+      text-align: center;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+  }
+}
+
+/* 展开态样式统一 */
+.scrollbar-wrapper-open {
+  & .el-menu-vertical-2 {
+    & ::v-deep .el-menu-item i,
+    & ::v-deep .el-submenu__title i {
+      margin-right: 8px;
+      font-size: 18px;
+      color: inherit;
+    }
+    
+    // 统一所有一级菜单项的样式
+    & ::v-deep .el-menu-item,
+    & ::v-deep .el-submenu__title {
+      height: 48px;
+      line-height: 48px;
+      color: #262626;
+      padding: 0 16px;
+      transition: background .15s ease, color .15s ease;
+      font-size: 14px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    /* 悬停 */
+    & ::v-deep .el-menu-item:hover,
+    & ::v-deep .el-submenu__title:hover {
+      background: #f5f7fa;
+      color: #262626;
+    }
+
+    /* 选中高亮（含子菜单标题） */
+    & ::v-deep .el-menu-item.is-active,
+    & ::v-deep .el-submenu.is-active > .el-submenu__title {
+      background: #ecf5ff;
+      color: #409EFF;
+      position: relative;
+    }
+    & ::v-deep .el-menu-item.is-active::before,
+    & ::v-deep .el-submenu.is-active > .el-submenu__title::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 8px;
+      bottom: 8px;
+      width: 3px;
+      border-radius: 2px;
+      background: #409EFF;
+    }
   }
 }
 
@@ -1104,20 +8022,69 @@ export default {
 .menu-preview {
   .scrollbar-wrapper-open {
     .el-menu-vertical-2 {
+      // 统一所有菜单项的字体样式
+      & ::v-deep .el-menu-item,
+      & ::v-deep .el-submenu__title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+      }
+      
+      // 统一所有子菜单项的字体样式
+      .el-submenu .el-menu .el-menu-item {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+      }
+      
       // 顶级单项（非子菜单）
       > .el-menu-item.other > .el-tooltip {
         background: #fff !important;
+      }
+    }
+  }
+  .scrollbar-wrapper-close {
+    .el-menu-vertical-2 {
+      // 统一所有菜单项的字体样式（折叠状态）
+      & ::v-deep .el-menu-item,
+      & ::v-deep .el-submenu__title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+      }
+      
+      // 统一所有子菜单项的字体样式（折叠状态）
+      .el-submenu .el-menu .el-menu-item {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+      }
         color: #262626 !important;
         border: none !important;
         box-shadow: none !important;
         text-shadow: none !important;
         line-height: 48px !important;
+        font-size: 14px !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+      }
       }
       > .el-menu-item.other.is-active > .el-tooltip {
         background: #e6f7ff !important;
         color: #1890ff !important;
       }
       > .el-menu-item.other > .el-tooltip:hover {
+        background: #f5faff !important;
+        color: #1890ff !important;
+      }
+
+      // 首页模块样式统一
+      > .el-menu-item.home > .el-tooltip {
+        background: #fff !important;
+        color: #262626 !important;
+        border: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        line-height: 48px !important;
+        font-size: 14px !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+      }
+      > .el-menu-item.home.is-active > .el-tooltip {
+        background: #e6f7ff !important;
+        color: #1890ff !important;
+      }
+      > .el-menu-item.home > .el-tooltip:hover {
         background: #f5faff !important;
         color: #1890ff !important;
       }
@@ -1131,6 +8098,7 @@ export default {
         text-shadow: none !important;
         line-height: 48px !important;
         font-size: 14px !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
       }
       .el-submenu.other.is-active ::v-deep .el-submenu__title {
         background: #e6f7ff !important;
@@ -1151,6 +8119,9 @@ export default {
         border: none !important;
         line-height: 44px !important;
         height: 44px !important;
+        font-size: 14px !important;
+        padding: 0 32px !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
       }
       .el-submenu.other .el-menu .el-menu-item:hover {
         background: #f5faff !important;
@@ -1160,16 +8131,52 @@ export default {
         background: #e6f7ff !important;
         color: #1890ff !important;
       }
+      
+      // 统一所有子菜单项样式
+      .el-submenu .el-menu .el-menu-item {
+        background: #fff !important;
+        color: #262626 !important;
+        border: none !important;
+        line-height: 44px !important;
+        height: 44px !important;
+        font-size: 14px !important;
+        padding: 0 32px !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+      }
+      .el-submenu .el-menu .el-menu-item:hover {
+        background: #f5faff !important;
+        color: #1890ff !important;
+      }
+      .el-submenu .el-menu .el-menu-item.is-active {
+        background: #e6f7ff !important;
+        color: #1890ff !important;
+      }
     }
   }
-}
 
-/* unify user submenu with light style */
-.menu-preview {
-  /* open state */
-  .scrollbar-wrapper-open {
+  .scrollbar-wrapper-close {
     .el-menu-vertical-2 {
-      /* title appearance */
+      .el-submenu .el-menu .el-menu-item {
+        background: #fff !important;
+        color: #262626 !important;
+        border: none !important;
+        line-height: 44px !important;
+        height: 44px !important;
+        font-size: 14px !important;
+        padding: 0 32px !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+      }
+      .el-submenu .el-menu .el-menu-item:hover {
+        background: #f5faff !important;
+        color: #1890ff !important;
+      }
+      .el-submenu .el-menu .el-menu-item.is-active {
+        background: #e6f7ff !important;
+        color: #1890ff !important;
+      }
+      
+      /* unify user submenu with light style */
+      /* open state */
       & ::v-deep .el-submenu.user > .el-submenu__title {
         background: #fff !important;
         color: #262626 !important;
@@ -1179,6 +8186,8 @@ export default {
         border: none !important;
         box-shadow: none !important;
         text-shadow: none !important;
+        font-size: 14px !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
       }
       & ::v-deep .el-submenu.user > .el-submenu__title:hover {
         background: #f5f7fa !important;
@@ -1214,6 +8223,45 @@ export default {
         color: #262626 !important;
         border: 0 !important;
         text-shadow: none !important;
+        font-size: 14px !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+      }
+      & ::v-deep .el-submenu.user .el-menu-item:hover {
+        background: #f5f7fa !important;
+        color: #262626 !important;
+      }
+      & ::v-deep .el-submenu.user .el-menu-item.is-active {
+        background: #ecf5ff !important;
+        color: #409EFF !important;
+      }
+      
+      /* close state */
+      & ::v-deep .el-submenu.user > .el-submenu__title {
+        background: transparent !important;
+        color: #606266 !important;
+        padding: 0 8px !important;
+        height: 48px !important;
+        line-height: 48px !important;
+        border: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        font-size: 14px !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+      }
+      & ::v-deep .el-submenu.user > .el-menu {
+        background: #fff !important;
+        border: none !important;
+      }
+      & ::v-deep .el-submenu.user .el-menu-item {
+        height: 44px !important;
+        line-height: 44px !important;
+        padding: 0 32px !important;
+        background: #fff !important;
+        color: #262626 !important;
+        border: 0 !important;
+        text-shadow: none !important;
+        font-size: 14px !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
       }
       & ::v-deep .el-submenu.user .el-menu-item:hover {
         background: #f5f7fa !important;
@@ -1225,28 +8273,4 @@ export default {
       }
     }
   }
-
-  /* close state */
-  .scrollbar-wrapper-close {
-    .el-menu-vertical-2 {
-      & ::v-deep .el-submenu.user > .el-submenu__title {
-        background: transparent !important;
-        color: #606266 !important;
-        padding: 0 8px !important;
-        height: 48px !important;
-        line-height: 48px !important;
-        border: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-      }
-      & ::v-deep .el-submenu.user > .el-menu {
-        background: #fff !important;
-        border: none !important;
-      }
-    }
-  }
-
-  /* force hide userinfo bar if visible */
-  .userinfo { display: none !important; }
-}
 </style>
