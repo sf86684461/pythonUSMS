@@ -13,8 +13,8 @@
 .el-menu-vertical-demo .el-menu-item,
 .el-menu-vertical-demo .el-submenu__title {
   font-size: 14px !important;
-  height: 56px !important;
-  line-height: 56px !important;
+  height: 64px !important;
+  line-height: 64px !important;
   padding-left: 20px !important;
 }
 
@@ -52,8 +52,8 @@
 /* 二级菜单项样式 */
 .el-menu-vertical-demo .el-submenu .el-menu-item {
   font-size: 13px !important;
-  height: 50px !important;
-  line-height: 50px !important;
+  height: 56px !important;
+  line-height: 56px !important;
   padding-left: 50px !important;
 }
 

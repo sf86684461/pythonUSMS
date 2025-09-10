@@ -1,0 +1,512 @@
+/* 统一表格样式 - 公共样式文件 */
+
+/* 表单样式 */
+.center-form-pv {
+  .el-date-editor.el-input {
+    width: auto;
+  }
+}
+
+.el-input {
+  width: auto;
+}
+
+/* 表单输入框样式 */
+.center-form-pv .el-input ::v-deep .el-input__inner {
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  padding: 0 12px;
+  color: inherit;
+  background: #fff;
+  width: 150px;
+  font-size: inherit;
+  line-height: 34px;
+  height: 34px;
+}
+
+.center-form-pv .el-select ::v-deep .el-input__inner {
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  padding: 0 10px;
+  color: inherit;
+  background: #fff;
+  width: 150px;
+  font-size: inherit;
+  line-height: 34px;
+  height: 34px;
+}
+
+.center-form-pv .el-date-editor ::v-deep .el-input__inner {
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  padding: 0 10px 0 30px;
+  color: inherit;
+  background: #fff;
+  width: 150px;
+  font-size: inherit;
+  line-height: 34px;
+  height: 34px;
+}
+
+/* 搜索按钮样式 */
+.center-form-pv .search {
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 14px;
+  border-color: #719e37;
+  transition: all 0s;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #9bc747 0%, #82bd42 100%);
+  width: auto;
+  border-width: 1px;
+  border-style: solid;
+  min-width: 80px;
+  height: 34px;
+}
+
+.center-form-pv .search:hover {
+  /* 悬停效果可以在这里添加 */
+}
+
+/* 操作按钮样式 */
+.center-form-pv .actions .add {
+  border: 1px solid #0f70ad;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 4px 4px 5px 0;
+  color: inherit;
+  font-size: inherit;
+  transition: all 0.5s;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #208ed3 0%, #0272bd 100%), #208ed3;
+  width: auto;
+  min-width: 70px;
+  height: auto;
+}
+
+.center-form-pv .actions .add:hover {
+  transform: translate3d(-8px, 0px, 0px);
+}
+
+.center-form-pv .actions .del {
+  border: 1px solid #FF4949;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 4px 4px 5px;
+  color: inherit;
+  font-size: inherit;
+  transition: all 0.5s;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  background: #FF4949;
+  width: auto;
+  min-width: 70px;
+  height: auto;
+}
+
+.center-form-pv .actions .del:hover {
+  transform: translate3d(-8px, 0px, 0px);
+}
+
+.center-form-pv .actions .statis {
+  border: 1px solid #719e37;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 4px 4px 5px;
+  color: inherit;
+  font-size: inherit;
+  transition: all 0.5s;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #9bc747 0%, #82bd42 100%);
+  width: auto;
+  height: auto;
+}
+
+.center-form-pv .actions .statis:hover {
+  transform: translate3d(-8px, 0px, 0px);
+}
+
+.center-form-pv .actions .btn18 {
+  border: 1px solid #323537;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 4px 4px 5px;
+  color: #fff;
+  font-size: inherit;
+  transition: all 0.5s;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  background: linear-gradient(to bottom, #4b4f51 0%, #414547 100%);
+  width: auto;
+  height: auto;
+}
+
+.center-form-pv .actions .btn18:hover {
+  transform: translate3d(-8px, 0px, 0px);
+}
+
+/* 表格样式 */
+.el-table ::v-deep .el-table__header-wrapper thead {
+  color: inherit;
+  background: rgba(254, 169, 34, 0);
+  width: 100%;
+}
+
+.el-table ::v-deep .el-table__header-wrapper thead tr {
+  background: linear-gradient(to bottom, #ededee 0%, #dddddd 100%);
+}
+
+.el-table ::v-deep .el-table__header-wrapper thead tr th {
+  padding: 2px 0;
+  background: none;
+  border-color: #fff;
+  border-width: 0 0px 1px 0;
+  border-style: solid;
+  text-align: left;
+}
+
+.el-table ::v-deep .el-table__header-wrapper thead tr th .cell {
+  padding: 0 0px;
+  word-wrap: normal;
+  color: #333;
+  white-space: normal;
+  font-weight: 600;
+  display: flex;
+  vertical-align: middle;
+  font-size: 12px;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody {
+  padding: 0;
+  width: 100%;
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody tr {
+  background: none;
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody tr td {
+  padding: 2px 0;
+  color: inherit;
+  background: none;
+  font-size: inherit;
+  border-color: #f4f4f4;
+  border-width: 0 0px 1px 0px;
+  border-style: solid;
+  text-align: left;
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody tr.el-table__row--striped td {
+  background: #f0f0f0;
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody tr:hover td {
+  padding: 2px 0;
+  color: #fff;
+  background: linear-gradient(to bottom, #208ed3 0%, #0272bd 100%), #208ed3;
+  font-weight: 500;
+  border-color: #e9e9e9;
+  border-width: 0 0px 1px 0px;
+  border-style: solid;
+  text-align: left;
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody tr td .cell {
+  padding: 0 0px;
+  overflow: hidden;
+  color: inherit;
+  word-break: break-all;
+  white-space: normal;
+  display: flex;
+  font-size: 12px;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  flex-wrap: wrap;
+}
+
+/* 表格内操作按钮样式 - 统一颜色 */
+.el-table ::v-deep .el-table__body-wrapper tbody tr td .view {
+  border: 1px solid #20A0FF;
+  cursor: pointer;
+  padding: 0 10px;
+  margin: 0 5px 5px 0;
+  color: #fff;
+  font-size: 13px;
+  transition: all 0.5s;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  background: #20A0FF;
+  width: auto;
+  min-width: 40px;
+  height: 30px;
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody tr td .view:hover {
+  background: #1890ff;
+  border-color: #1890ff;
+  transform: translate3d(-8px, 0px, 0px);
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody tr td .edit {
+  border: 1px solid #20A0FF;
+  cursor: pointer;
+  padding: 0 10px;
+  margin: 0 5px 5px 0;
+  color: #fff;
+  font-size: 13px;
+  transition: all 0.5s;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  background: #20A0FF;
+  width: auto;
+  min-width: 40px;
+  height: 30px;
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody tr td .edit:hover {
+  background: #1890ff;
+  border-color: #1890ff;
+  transform: translate3d(-8px, 0px, 0px);
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody tr td .del {
+  border: 1px solid #FF4949;
+  cursor: pointer;
+  padding: 0 10px;
+  margin: 0 5px 5px 0;
+  color: #fff;
+  font-size: 13px;
+  transition: all 0.5s;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  background: #FF4949;
+  width: auto;
+  height: 30px;
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody tr td .del:hover {
+  background: #e64545;
+  border-color: #e64545;
+  transform: translate3d(-8px, 0px, 0px);
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody tr td .btn8 {
+  border: 1px solid #323537;
+  cursor: pointer;
+  padding: 0 10px;
+  margin: 0 5px 5px 0;
+  color: #fff;
+  font-size: 13px;
+  transition: all 0.5s;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  background: linear-gradient(to bottom, #4b4f51 0%, #414547 100%);
+  width: auto;
+  height: 30px;
+}
+
+.el-table ::v-deep .el-table__body-wrapper tbody tr td .btn8:hover {
+  transform: translate3d(-8px, 0px, 0px);
+}
+
+/* 分页样式 */
+.main-content .el-pagination ::v-deep .el-pagination__total {
+  margin: 0 10px 0 0;
+  color: inherit;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: top;
+  font-size: inherit;
+  line-height: 28px;
+  height: 28px;
+}
+
+.main-content .el-pagination ::v-deep .btn-prev {
+  border: none;
+  border-radius: 2px;
+  padding: 0 5px;
+  margin: 0 5px;
+  color: inherit;
+  background: none;
+  display: inline-block;
+  vertical-align: top;
+  font-size: inherit;
+  line-height: 28px;
+  min-width: 35px;
+  height: 28px;
+}
+
+.main-content .el-pagination ::v-deep .btn-next {
+  border: none;
+  border-radius: 2px;
+  padding: 0 5px;
+  margin: 0 5px;
+  color: inherit;
+  background: none;
+  display: inline-block;
+  vertical-align: top;
+  font-size: inherit;
+  line-height: 28px;
+  min-width: 35px;
+  height: 28px;
+}
+
+.main-content .el-pagination ::v-deep .btn-prev:disabled {
+  border: none;
+  cursor: not-allowed;
+  border-radius: 2px;
+  padding: 0 5px;
+  margin: 0 5px;
+  color: #999;
+  background: none;
+  display: inline-block;
+  vertical-align: top;
+  font-size: inherit;
+  line-height: 28px;
+  height: 28px;
+}
+
+.main-content .el-pagination ::v-deep .btn-next:disabled {
+  border: none;
+  cursor: not-allowed;
+  border-radius: 2px;
+  padding: 0 5px;
+  margin: 0 5px;
+  color: #999;
+  background: none;
+  display: inline-block;
+  vertical-align: top;
+  font-size: inherit;
+  line-height: 28px;
+  height: 28px;
+}
+
+.main-content .el-pagination ::v-deep .el-pager {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main-content .el-pagination ::v-deep .el-pager .number {
+  border: none;
+  border-radius: 2px;
+  padding: 0 4px;
+  margin: 0 5px;
+  color: inherit;
+  background: none;
+  display: inline-block;
+  vertical-align: top;
+  font-size: inherit;
+  line-height: 28px;
+  min-width: 35px;
+  height: 28px;
+}
+
+.main-content .el-pagination ::v-deep .el-pager .number.active {
+  border: none;
+  border-radius: 2px;
+  padding: 0 4px;
+  margin: 0 5px;
+  color: #fff;
+  background: linear-gradient(to bottom, #208ed3 0%, #0272bd 100%), #208ed3;
+  display: inline-block;
+  vertical-align: top;
+  font-size: inherit;
+  line-height: 28px;
+  min-width: 35px;
+  height: 28px;
+}
+
+.main-content .el-pagination ::v-deep .el-pagination__sizes {
+  margin: 0 10px 0 0;
+  font-weight: 400;
+  color: inherit;
+  font-size: inherit;
+}
+
+.main-content .el-pagination ::v-deep .el-pagination__sizes .el-select .el-input .el-input__inner {
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  padding: 0 25px 0 8px;
+  color: inherit;
+  background: #fff;
+  font-size: inherit;
+  line-height: 28px;
+  height: 28px;
+}
+
+.main-content .el-pagination ::v-deep .el-pagination__jump {
+  margin: 0 0 0 24px;
+  font-weight: 400;
+  color: inherit;
+  font-size: inherit;
+}
+
+.main-content .el-pagination ::v-deep .el-pagination__jump .el-input .el-input__inner {
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  padding: 0 3px;
+  margin: 0 2px;
+  color: inherit;
+  text-align: center;
+  background: #fff;
+  font-size: inherit;
+  line-height: 28px;
+  width: 35px;
+  height: 28px;
+}
+
+/* Switch 开关样式 */
+.main-content .el-table .el-switch {
+  display: inline-flex;
+}
+
+.main-content .el-table .el-switch ::v-deep .el-switch__label--left {
+  cursor: pointer;
+}
+
+.main-content .el-table .el-switch ::v-deep .el-switch__label--right {
+  cursor: pointer;
+}
+
+.main-content .el-table .el-switch ::v-deep .el-switch__core {
+  border: 1px solid #b0d5f6;
+}
+
+.main-content .el-table .el-switch ::v-deep .el-switch__core::after {
+  border-radius: 100%;
+}
+
+.main-content .el-table .el-switch.is-checked ::v-deep .el-switch__core::after {
+  margin: 0 0 0 -17px;
+}
+
+/* Rate 评分样式 */
+.main-content .el-table .el-rate ::v-deep .el-rate__item {
+  cursor: pointer;
+}
+
+.main-content .el-table .el-rate ::v-deep .el-rate__item .el-rate__icon {
+  margin: 0 3px;
+}

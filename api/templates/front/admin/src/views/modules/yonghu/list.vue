@@ -28,17 +28,15 @@
 
 				</el-row>
 			</el-form>
-			<div :style='{"border":"1px solid #e9e9e9","width":"100%","padding":"20px","margin":"10px 0 0","borderRadius":"5px","background":"rgba(255,255,255,1)"}'>
-				<el-table class="tables"
-					:stripe='true'
-					:style='{"padding":"0","borderColor":"#ddd #e9e9e9 #e9e9e9 #e9e9e9","color":"inherit","borderRadius":"0px","borderWidth":"2px 1px 0 1px","background":"none","width":"100%","fontSize":"inherit","borderStyle":"solid"}' 
-					:border='true'
+			<div class="card-table-container">
+				<el-table class="card-table"
 					v-if="isAuth('yonghu','查看')"
 					:data="dataList"
 					v-loading="dataListLoading"
-				@selection-change="selectionChangeHandler">
+					@selection-change="selectionChangeHandler"
+					style="width: 100%">
 					<el-table-column :resizable='true' type="selection" align="center" width="50"></el-table-column>
-					<el-table-column :resizable='true' :sortable='true' label="序号" type="index" width="50" />
+					<el-table-column :resizable='true' :sortable='true' label="序号" type="index" width="80" align="center" />
 					<el-table-column :resizable='true' :sortable='true'  
 						prop="yonghuzhanghao"
 						label="用户账号">
@@ -83,24 +81,28 @@
 							{{scope.row.yonghushouji}}
 						</template>
 					</el-table-column>
-					<el-table-column width="300" label="操作">
+					<el-table-column width="280" label="操作">
 						<template slot-scope="scope">
-							<el-button class="view" v-if=" isAuth('yonghu','查看')" type="success" @click="addOrUpdateHandler(scope.row.id,'info')">
-								<span class="icon iconfont icon-chakan14" :style='{"margin":"0 2px","fontSize":"inherit","color":"inherit","display":"none","height":"40px"}'></span>
-								查看
-							</el-button>
-							<el-button class="edit" v-if=" isAuth('yonghu','修改') " type="success" @click="addOrUpdateHandler(scope.row.id)">
-								<span class="icon iconfont icon-xiugai10" :style='{"margin":"0 2px","fontSize":"inherit","color":"inherit","display":"none","height":"40px"}'></span>
-								修改
-							</el-button>
-
-
-
-
-							<el-button class="del" v-if="isAuth('yonghu','删除') " type="primary" @click="deleteHandler(scope.row.id )">
-								<span class="icon iconfont icon-guanbi1" :style='{"margin":"0 2px","fontSize":"inherit","color":"inherit","display":"none","height":"40px"}'></span>
-								删除
-							</el-button>
+							<div class="action-buttons">
+								<el-button 
+									class="action-btn view-btn" 
+									v-if="isAuth('yonghu','查看')" 
+									@click="addOrUpdateHandler(scope.row.id,'info')">
+									查看
+								</el-button>
+								<el-button 
+									class="action-btn edit-btn" 
+									v-if="isAuth('yonghu','修改')" 
+									@click="addOrUpdateHandler(scope.row.id)">
+									修改
+								</el-button>
+								<el-button 
+									class="action-btn delete-btn" 
+									v-if="isAuth('yonghu','删除')" 
+									@click="deleteHandler(scope.row.id)">
+									删除
+								</el-button>
+							</div>
 						</template>
 					</el-table-column>
 				</el-table>
@@ -137,6 +139,7 @@
 <script>
 import axios from 'axios'
 import AddOrUpdate from "./add-or-update";
+import tableStyleMixin from '@/mixins/table-style-mixin.js';
 	export default {
 		data() {
 			return {
@@ -177,6 +180,7 @@ import AddOrUpdate from "./add-or-update";
 		components: {
 			AddOrUpdate,
 		},
+		mixins: [tableStyleMixin],
 		methods: {
 			imgPreView(url){
 				this.previewImg = url
@@ -1090,6 +1094,32 @@ import AddOrUpdate from "./add-or-update";
 				font-size: 18px;
 				position: relative;
 				transition: .3s;
+			}
+
+</style>
+tent .el-table .el-switch.is-checked ::v-deep .el-switch__core::after {
+				margin: 0 0 0 -17px;
+				left: 100%;
+			}
+	
+	.main-content .el-table .el-rate ::v-deep .el-rate__item {
+				cursor: pointer;
+				display: inline-block;
+				vertical-align: middle;
+				font-size: 0;
+				position: relative;
+			}
+	.main-content .el-table .el-rate ::v-deep .el-rate__item .el-rate__icon {
+				margin: 0 3px;
+				color: #c0c4cc;
+				display: inline-block;
+				font-size: 18px;
+				position: relative;
+				transition: .3s;
+			}
+
+</style>
+transition: .3s;
 			}
 
 </style>

@@ -38,7 +38,7 @@
 					v-loading="dataListLoading"
 				@selection-change="selectionChangeHandler">
 					<el-table-column :resizable='true' type="selection" align="center" width="50"></el-table-column>
-					<el-table-column :resizable='true' :sortable='true' label="序号" type="index" width="50" />
+					<el-table-column :resizable='true' :sortable='true' label="序号" type="index" width="80" align="center" />
 					<el-table-column :resizable='true' :sortable='true'  
 						prop="yuangonggonghao"
 						label="员工工号">
@@ -451,7 +451,7 @@ import AddOrUpdate from "./add-or-update";
 				border-radius: 3px;
 				box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
 				text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
-				background: linear-gradient(to bottom, #9bc747 0%,#82bd42 100%);
+				background: #20A0FF;
 				width: auto;
 				border-width: 1px;
 				border-style: solid;
@@ -463,7 +463,7 @@ import AddOrUpdate from "./add-or-update";
 			}
 	
 	.center-form-pv .actions .add {
-				border: 1px solid #0f70ad;
+				border: 1px solid #20A0FF;
 				cursor: pointer;
 				padding: 10px 15px;
 				margin: 4px 4px 5px 0;
@@ -484,7 +484,7 @@ import AddOrUpdate from "./add-or-update";
 			}
 	
 	.center-form-pv .actions .del {
-				border: 1px solid #af2b1b;
+				border: 1px solid #FF4949;
 				cursor: pointer;
 				padding: 10px 15px;
 				margin: 4px 4px 5px;
@@ -494,7 +494,7 @@ import AddOrUpdate from "./add-or-update";
 				border-radius: 3px;
 				box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
 				text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
-				background: linear-gradient(to bottom, #bc3423 0%,#cd4433 100%);
+				background: #FF4949;
 				width: auto;
 				min-width: 70px;
 				height: auto;
@@ -505,7 +505,7 @@ import AddOrUpdate from "./add-or-update";
 			}
 	
 	.center-form-pv .actions .statis {
-				border: 1px solid #719e37;
+				border: 1px solid #20A0FF;
 				cursor: pointer;
 				padding: 10px 15px;
 				margin: 4px 4px 5px;
@@ -652,7 +652,7 @@ import AddOrUpdate from "./add-or-update";
 				border-radius: 3px;
 				box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
 				text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
-				background: linear-gradient(to bottom, #208ed3 0%,#0272bd 100%);
+				background: #20A0FF;
 				width: auto;
 				min-width: 40px;
 				height: 30px;

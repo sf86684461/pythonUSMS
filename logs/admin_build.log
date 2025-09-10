@@ -2,15 +2,15 @@
 [1;34m==>[0m 检测到 node_modules，跳过安装（如需重新安装请删除 node_modules）
 [1;34m==>[0m 开始构建（输出：dist-build)...
 
- WARNING  Compiled with 3 warnings07:00:00
+ WARNING  Compiled with 3 warnings01:42:49
 
  warning  
 
 asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
 This can impact web performance.
 Assets: 
-  css/app.7becbf65.css (639 KiB)
-  js/app.49784224.js (600 KiB)
+  css/app.6268e779.css (657 KiB)
+  js/app.a2e9fd0a.js (602 KiB)
   js/chunk-vendors.41b6ea4b.js (2.49 MiB)
   lunar/lunar.js (443 KiB)
 
@@ -18,11 +18,11 @@ Assets:
 
 entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 Entrypoints:
-  app (3.74 MiB)
+  app (3.76 MiB)
       css/chunk-vendors.1f0a25b2.css
       js/chunk-vendors.41b6ea4b.js
-      css/app.7becbf65.css
-      js/app.49784224.js
+      css/app.6268e779.css
+      js/app.a2e9fd0a.js
 
 
  warning  
@@ -36,11 +36,11 @@ For more info visit https://webpack.js.org/guides/code-splitting/
   dist-build/verifys/jquery-3.4.1.min.js    86.08 KiB        30.01 KiB
   dist-build/js/chunk-vendors.41b6ea4b.j    2549.94 KiB      760.25 KiB
   s
-  dist-build/js/app.49784224.js             600.21 KiB       111.94 KiB
+  dist-build/js/app.a2e9fd0a.js             602.10 KiB       112.72 KiB
   dist-build/lunar/lunar.js                 443.48 KiB       108.77 KiB
   dist-build/verifys/verify.js              28.35 KiB        6.62 KiB
   dist-build/verifys/yz.js                  24.55 KiB        7.80 KiB
-  dist-build/css/app.7becbf65.css           639.33 KiB       53.29 KiB
+  dist-build/css/app.6268e779.css           656.70 KiB       55.16 KiB
   dist-build/css/chunk-vendors.1f0a25b2.    36.57 KiB        4.74 KiB
   css
 

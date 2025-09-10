@@ -1,0 +1,627 @@
+/* 现代化表格页面样式 */
+
+/* 主容器样式 */
+.main-content {
+  padding: 24px !important;
+  background: #f5f7fa !important;
+  min-height: 100vh;
+  color: #303133 !important;
+  font-size: 14px !important;
+}
+
+/* 搜索表单区域 */
+.center-form-pv {
+  background: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 24px !important;
+  margin-bottom: 16px !important;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important;
+  border: none !important;
+}
+
+.center-form-pv .el-row {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  align-items: center !important;
+}
+
+/* 搜索输入框样式 */
+.center-form-pv .el-input .el-input__inner {
+  border: 1px solid #dcdfe6 !important;
+  border-radius: 6px !important;
+  padding: 0 15px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 14px !important;
+  transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+
+.center-form-pv .el-input .el-input__inner:focus {
+  border-color: #409eff !important;
+  outline: none !important;
+}
+
+/* 标签样式 */
+.item-label {
+  font-weight: 500 !important;
+  color: #606266 !important;
+  margin-right: 12px !important;
+  white-space: nowrap !important;
+}
+
+/* 搜索按钮样式 */
+.center-form-pv .search {
+  background: linear-gradient(135deg, #409eff 0%, #3a8ee6 100%) !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 0 20px !important;
+  height: 40px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 4px rgba(64, 158, 255, 0.3) !important;
+}
+
+.center-form-pv .search:hover {
+  background: linear-gradient(135deg, #3a8ee6 0%, #337ecc 100%) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 8px rgba(64, 158, 255, 0.4) !important;
+}
+
+/* 操作按钮区域 */
+.actions {
+  background: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 16px 24px !important;
+  margin-bottom: 16px !important;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important;
+  border: none !important;
+}
+
+/* 新增按钮 */
+.actions .add {
+  background: linear-gradient(135deg, #67c23a 0%, #5daf34 100%) !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 0 20px !important;
+  height: 40px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #ffffff !important;
+  margin-right: 12px !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 4px rgba(103, 194, 58, 0.3) !important;
+}
+
+.actions .add:hover {
+  background: linear-gradient(135deg, #5daf34 0%, #529b2e 100%) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 8px rgba(103, 194, 58, 0.4) !important;
+}
+
+/* 删除按钮 */
+.actions .del {
+  background: linear-gradient(135deg, #f56c6c 0%, #f25c5c 100%) !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 0 20px !important;
+  height: 40px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 4px rgba(245, 108, 108, 0.3) !important;
+}
+
+.actions .del:hover {
+  background: linear-gradient(135deg, #f25c5c 0%, #e64747 100%) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 8px rgba(245, 108, 108, 0.4) !important;
+}
+
+.actions .del:disabled {
+  background: #c0c4cc !important;
+  color: #ffffff !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* 表格容器 */
+.table-container {
+  background: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 24px !important;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important;
+  border: none !important;
+}
+
+/* 表格样式重写 - 无分割线，蓝色表头，居中对齐 */
+.el-table {
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  border: none !important;
+}
+
+/* 表格头部 - 蓝色背景 */
+.el-table .el-table__header-wrapper thead tr {
+  background: #58B7FF !important;
+}
+
+.el-table .el-table__header-wrapper thead tr th {
+  background: #58B7FF !important;
+  border: none !important;
+  padding: 16px 12px !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  font-size: 14px !important;
+  text-align: center !important;
+}
+
+.el-table .el-table__header-wrapper thead tr th .cell {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  text-align: center !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+
+/* 完全隐藏排序功能 */
+.el-table .el-table__header-wrapper thead tr th .caret-wrapper {
+  display: none !important;
+}
+
+.el-table .el-table__header-wrapper thead tr th .sort-caret {
+  display: none !important;
+}
+
+.el-table .el-table__header-wrapper thead tr th .ascending {
+  display: none !important;
+}
+
+.el-table .el-table__header-wrapper thead tr th .descending {
+  display: none !important;
+}
+
+/* 移除排序相关的鼠标指针样式 */
+.el-table .el-table__header-wrapper thead tr th {
+  cursor: default !important;
+}
+
+.el-table .el-table__header-wrapper thead tr th .cell {
+  cursor: default !important;
+}
+
+/* 确保所有列都居中对齐 */
+.el-table .el-table__header-wrapper thead tr th .cell,
+.el-table .el-table__body-wrapper tbody tr td .cell {
+  justify-content: center !important;
+  text-align: center !important;
+  display: flex !important;
+}
+
+/* 特别处理序号列和选择列 */
+.el-table .el-table__header-wrapper thead tr th:first-child .cell,
+.el-table .el-table__header-wrapper thead tr th:nth-child(2) .cell,
+.el-table .el-table__body-wrapper tbody tr td:first-child .cell,
+.el-table .el-table__body-wrapper tbody tr td:nth-child(2) .cell {
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+/* 强制所有表头列都使用蓝色背景 */
+.el-table__header th.is-leaf,
+.el-table__header th.el-table__cell,
+.el-table__header .el-table__cell,
+.el-table thead th,
+.el-table thead .el-table__cell {
+  background: #58B7FF !important;
+  color: #ffffff !important;
+}
+
+.el-table__header th.is-leaf .cell,
+.el-table__header th.el-table__cell .cell,
+.el-table__header .el-table__cell .cell,
+.el-table thead th .cell,
+.el-table thead .el-table__cell .cell {
+  background: transparent !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+/* 覆盖Element UI默认的表头样式 */
+.el-table__header-wrapper .el-table__header thead tr th {
+  background-color: #58B7FF !important;
+}
+
+.el-table__header-wrapper .el-table__header thead tr th .cell {
+  color: #ffffff !important;
+}
+
+/* 表格主体 - 无分割线，居中对齐 */
+.el-table .el-table__body-wrapper tbody tr {
+  transition: background-color 0.25s ease !important;
+}
+
+.el-table .el-table__body-wrapper tbody tr td {
+  padding: 16px 12px !important;
+  border: none !important;
+  color: #606266 !important;
+  font-size: 14px !important;
+  text-align: center !important;
+}
+
+.el-table .el-table__body-wrapper tbody tr td .cell {
+  color: #606266 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  text-align: center !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+
+/* 强制所有表格列居中对齐 */
+.el-table th,
+.el-table td {
+  text-align: center !important;
+}
+
+.el-table th .cell,
+.el-table td .cell {
+  text-align: center !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+
+/* 斑马纹样式 */
+.el-table .el-table__body-wrapper tbody tr.el-table__row--striped td {
+  background: #fafbfc !important;
+}
+
+/* 悬停效果 */
+.el-table .el-table__body-wrapper tbody tr:hover td {
+  background: #f5f7fa !important;
+  color: #303133 !important;
+}
+
+/* 表格内操作按钮 - 优化并排显示和高度一致性 */
+.el-table .el-table__body-wrapper tbody tr td .view,
+.el-table .el-table__body-wrapper tbody tr td .el-button.view {
+  background: #20A0FF !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 10px 14px !important;
+  margin: 0 !important;
+  color: #ffffff !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  height: 36px !important;
+  line-height: 16px !important;
+  transition: all 0.3s ease !important;
+  min-width: 64px !important;
+  max-width: 80px !important;
+  box-shadow: 0 2px 4px rgba(32, 160, 255, 0.3) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  white-space: nowrap !important;
+}
+
+.el-table .el-table__body-wrapper tbody tr td .view:hover,
+.el-table .el-table__body-wrapper tbody tr td .el-button.view:hover {
+  background: #1890ff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 8px rgba(32, 160, 255, 0.4) !important;
+}
+
+.el-table .el-table__body-wrapper tbody tr td .edit,
+.el-table .el-table__body-wrapper tbody tr td .el-button.edit {
+  background: #20A0FF !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 10px 14px !important;
+  margin: 0 !important;
+  color: #ffffff !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  height: 36px !important;
+  line-height: 16px !important;
+  transition: all 0.3s ease !important;
+  min-width: 64px !important;
+  max-width: 80px !important;
+  box-shadow: 0 2px 4px rgba(32, 160, 255, 0.3) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  white-space: nowrap !important;
+}
+
+.el-table .el-table__body-wrapper tbody tr td .edit:hover,
+.el-table .el-table__body-wrapper tbody tr td .el-button.edit:hover {
+  background: #1890ff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 8px rgba(32, 160, 255, 0.4) !important;
+}
+
+.el-table .el-table__body-wrapper tbody tr td .del,
+.el-table .el-table__body-wrapper tbody tr td .el-button.del {
+  background: #FF4949 !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 10px 14px !important;
+  margin: 0 !important;
+  color: #ffffff !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  height: 36px !important;
+  line-height: 16px !important;
+  transition: all 0.3s ease !important;
+  min-width: 64px !important;
+  max-width: 80px !important;
+  box-shadow: 0 2px 4px rgba(255, 73, 73, 0.3) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  white-space: nowrap !important;
+}
+
+.el-table .el-table__body-wrapper tbody tr td .del:hover,
+.el-table .el-table__body-wrapper tbody tr td .el-button.del:hover {
+  background: #e64545 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 8px rgba(255, 73, 73, 0.4) !important;
+}
+
+/* 针对Element UI按钮类型的额外覆盖 - 使用更强的选择器 */
+.el-table .el-table__body-wrapper .el-button--success.view,
+.el-table .el-table__body-wrapper .el-button--success.edit,
+.el-table .el-table__body-wrapper .el-button[type="success"].view,
+.el-table .el-table__body-wrapper .el-button[type="success"].edit {
+  background-color: #20A0FF !important;
+  border-color: #20A0FF !important;
+  color: #ffffff !important;
+}
+
+.el-table .el-table__body-wrapper .el-button--success.view:hover,
+.el-table .el-table__body-wrapper .el-button--success.edit:hover,
+.el-table .el-table__body-wrapper .el-button[type="success"].view:hover,
+.el-table .el-table__body-wrapper .el-button[type="success"].edit:hover {
+  background-color: #1890ff !important;
+  border-color: #1890ff !important;
+  color: #ffffff !important;
+}
+
+.el-table .el-table__body-wrapper .el-button--primary.del,
+.el-table .el-table__body-wrapper .el-button[type="primary"].del {
+  background-color: #FF4949 !important;
+  border-color: #FF4949 !important;
+  color: #ffffff !important;
+}
+
+.el-table .el-table__body-wrapper .el-button--primary.del:hover,
+.el-table .el-table__body-wrapper .el-button[type="primary"].del:hover {
+  background-color: #e64545 !important;
+  border-color: #e64545 !important;
+  color: #ffffff !important;
+}
+
+/* 更强的覆盖 - 针对所有可能的Element UI按钮状态 */
+.el-table .el-button.view,
+.el-table .el-button.edit,
+.el-table .el-button--default.view,
+.el-table .el-button--default.edit,
+.el-table .el-button--success.view,
+.el-table .el-button--success.edit {
+  background-color: #20A0FF !important;
+  border-color: #20A0FF !important;
+  color: #ffffff !important;
+}
+
+.el-table .el-button.view:hover,
+.el-table .el-button.view:focus,
+.el-table .el-button.edit:hover,
+.el-table .el-button.edit:focus,
+.el-table .el-button--default.view:hover,
+.el-table .el-button--default.edit:hover,
+.el-table .el-button--success.view:hover,
+.el-table .el-button--success.edit:hover {
+  background-color: #1890ff !important;
+  border-color: #1890ff !important;
+  color: #ffffff !important;
+}
+
+.el-table .el-button.del,
+.el-table .el-button--default.del,
+.el-table .el-button--primary.del {
+  background-color: #FF4949 !important;
+  border-color: #FF4949 !important;
+  color: #ffffff !important;
+}
+
+.el-table .el-button.del:hover,
+.el-table .el-button.del:focus,
+.el-table .el-button--default.del:hover,
+.el-table .el-button--primary.del:hover {
+  background-color: #e64545 !important;
+  border-color: #e64545 !important;
+  color: #ffffff !important;
+}
+
+/* 最强覆盖 - 使用属性选择器 */
+.el-table button[class*="view"] {
+  background-color: #20A0FF !important;
+  border-color: #20A0FF !important;
+  color: #ffffff !important;
+}
+
+.el-table button[class*="edit"] {
+  background-color: #20A0FF !important;
+  border-color: #20A0FF !important;
+  color: #ffffff !important;
+}
+
+.el-table button[class*="del"] {
+  background-color: #FF4949 !important;
+  border-color: #FF4949 !important;
+  color: #ffffff !important;
+}
+
+/* 操作列居中对齐和高度调整 */
+.el-table .el-table__body-wrapper tbody tr td:last-child {
+  text-align: center !important;
+  vertical-align: middle !important;
+  height: auto !important;
+  min-height: 60px !important;
+}
+
+.el-table .el-table__body-wrapper tbody tr td:last-child .cell {
+  justify-content: center !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  align-items: center !important;
+  min-height: 60px !important;
+  padding: 12px 8px !important;
+}
+
+/* 确保操作列按钮容器高度与其他列一致 */
+.el-table .el-table__body-wrapper tbody tr td:last-child .action-buttons {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+  width: 100% !important;
+  min-height: 40px !important;
+}
+
+/* 图片样式 */
+.el-table .el-table__body-wrapper tbody tr td img {
+  border-radius: 6px !important;
+  object-fit: cover !important;
+  cursor: pointer !important;
+  transition: transform 0.3s ease !important;
+}
+
+.el-table .el-table__body-wrapper tbody tr td img:hover {
+  transform: scale(1.05) !important;
+}
+
+/* 分页样式 */
+.el-pagination {
+  background: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 20px 24px !important;
+  margin-top: 16px !important;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important;
+  text-align: center !important;
+}
+
+.el-pagination .el-pagination__total {
+  color: #606266 !important;
+  font-weight: 500 !important;
+}
+
+.el-pagination .btn-prev,
+.el-pagination .btn-next {
+  background: #ffffff !important;
+  border: 1px solid #dcdfe6 !important;
+  border-radius: 4px !important;
+  color: #606266 !important;
+  transition: all 0.3s ease !important;
+}
+
+.el-pagination .btn-prev:hover,
+.el-pagination .btn-next:hover {
+  color: #409eff !important;
+  border-color: #409eff !important;
+}
+
+.el-pagination .el-pager .number {
+  background: #ffffff !important;
+  border: 1px solid #dcdfe6 !important;
+  border-radius: 4px !important;
+  color: #606266 !important;
+  transition: all 0.3s ease !important;
+}
+
+.el-pagination .el-pager .number:hover {
+  color: #409eff !important;
+  border-color: #409eff !important;
+}
+
+.el-pagination .el-pager .number.active {
+  background: #409eff !important;
+  border-color: #409eff !important;
+  color: #ffffff !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 16px !important;
+  }
+  
+  .center-form-pv,
+  .actions,
+  .table-container,
+  .el-pagination {
+    padding: 16px !important;
+  }
+  
+  .el-table .el-table__body-wrapper tbody tr td .view,
+  .el-table .el-table__body-wrapper tbody tr td .edit,
+  .el-table .el-table__body-wrapper tbody tr td .del {
+    padding: 4px 8px !important;
+    font-size: 11px !important;
+    margin: 0 2px 2px 0 !important;
+  }
+}
+
+/* 加载状态优化 */
+.el-loading-mask {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.el-loading-spinner .circular {
+  width: 42px !important;
+  height: 42px !important;
+}
+
+/* 空状态样式 */
+.el-table__empty-block {
+  background: #fafbfc !important;
+  border-radius: 8px !important;
+  margin: 20px !important;
+}
+
+.el-table__empty-text {
+  color: #909399 !important;
+  font-size: 14px !important;
+}
+
+/* 选择框样式优化 */
+.el-table .el-checkbox {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.el-table .el-checkbox__inner {
+  border-radius: 4px !important;
+  border-color: #dcdfe6 !important;
+  transition: all 0.3s ease !important;
+}
+
+.el-table .el-checkbox__inner:hover {
+  border-color: #409eff !important;
+}
+
+.el-table .el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color: #409eff !important;
+  border-color: #409eff !important;
+}

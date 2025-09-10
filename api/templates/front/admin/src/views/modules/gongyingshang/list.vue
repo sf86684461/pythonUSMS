@@ -42,7 +42,7 @@
 					v-loading="dataListLoading"
 				@selection-change="selectionChangeHandler">
 					<el-table-column :resizable='true' type="selection" align="center" width="50"></el-table-column>
-					<el-table-column :resizable='true' :sortable='true' label="序号" type="index" width="50" />
+					<el-table-column :resizable='true' :sortable='true' label="序号" type="index" width="80" align="center" />
 					<el-table-column :resizable='true' :sortable='true'  
 						prop="gongyingshangbianhao"
 						label="供应商编号">
